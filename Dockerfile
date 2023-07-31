@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-RUN apt update && sudo apt install curl -y
+RUN apt update && apt install curl -y
 CMD ["date"]
